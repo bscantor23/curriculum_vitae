@@ -1,6 +1,22 @@
 body {
     font-family: 'Varela Round' !important;
+    margin: 0px 80px;
+}
 
+.sp-text {
+    font-family: 'Indie Flower' !important;
+}
+
+.bg-principal-color {
+    background: #153c50;
+}
+
+.tx-principal-color {
+    color: #153c50;
+}
+
+.bg-transparent-color {
+    background: #F3F3F2;
 }
 
 a {
@@ -8,7 +24,6 @@ a {
 }
 
 .header-section {
-    background-color: #763626;
     color: #fff;
     height: 23vh !important;
     position: relative;
@@ -25,27 +40,31 @@ a {
 
 .s-icon-1 {
     font-size: 50px;
-    color:#FFF;
+    color: #FFF;
 }
 
 .s-icon-2 {
     font-size: 20px;
-    color:#763626;
+    color: #153c50;
+}
+
+.s-icon-3 {
+    font-size: 40px;
+    color: #153c50;
 }
 
 .s-icon-1:hover {
-    color:#f0aa98;
+    color: #899da7;
     transition: 0.3s;
 }
 
 .principal-section {
-    height: 77vh;
+    height: 75vh;
 }
 
 .principal-title {
     margin-top: 100px;
 }
-
 
 .hr-style-1 {
     width: 80px;
@@ -60,4 +79,39 @@ a {
 .tech-icons {
     width: 80px;
     margin: 0px 20px;
+}
+
+.carousel-img {
+    width: 100%;
+}
+
+.sp-text-control {
+    font-weight: bold;
+    color: #153c50;
+    background-color: #000;
+}
+
+.carousel-img {
+    margin-right: 0 !important;
+}
+
+.p-control-prev {
+    left:-150px;
+}
+
+.p-control-next {
+    right:-150px;
+}
+
+.section-estudios {
+    margin-left: 50px;
+}
+
+.section-estudios .p-title, .section-exp .p-title {
+    font-weight: bold;
+}
+
+.section-exp {
+    margin-left: 50px;
+    margin-right: 40px;
 }
